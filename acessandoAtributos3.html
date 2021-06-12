@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Acessando Atributos #03</title>
+    <link rel='stylesheet' href='css/estilo.css'>
+</head>
+
+<body class='conteudo exercicio'>
+    <div>
+        <ul id="compras" destino='escritório' data-urgencia="5">
+            <li>Café</li>
+            <li>Água</li>
+            <li>Copo Descartável</li>
+        </ul>
+    </div>
+    <script>
+      const lisra = document.querySelector('#compras')
+        // somente leitura
+        console.log(lista.attriburte[0])
+        console.log(lista.attriburte.destino)
+        console.log(lista.attriburte['data-urgencia'])
+
+
+    </script>
+</body>
+
+</html>
